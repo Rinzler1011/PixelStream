@@ -1,6 +1,6 @@
 \[![pkgsite](https://pkg.go.dev/badge/github.com/rinzler1011/PixelStream)](https://pkg.go.dev/github.com/rinzler1011/PixelStream)
 
-This repository contains packages for video processingthat covers YUV encoding/decoding and video codec development in GO
+This repository contains packages for video processing that covers YUV encoding/decoding and video codec development in GO
 
 ## Contributing
 
@@ -27,12 +27,6 @@ This project accepts also accept changes via pull requests
 Commit messages follow the same format used by the [Go] project (and others).
 The commit subject starts with the affected package name then a brief description of the change.
 The body may contain an explanation of the change and why it was made.
-For example:
-
-    sdp: store attributes as key-value pairs
-
-    This matches what the spec allows, and lets users not worry about
-    encoding.
 
 [Go]: https://go.dev/doc/contribute#commit_messages
 
