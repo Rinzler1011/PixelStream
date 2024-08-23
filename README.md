@@ -1,6 +1,6 @@
 \[![pkgsite](https://pkg.go.dev/badge/github.com/rinzler1011/PixelStream)](https://pkg.go.dev/github.com/rinzler1011/PixelStream)
 
-This repository contains packages for video processingthat covers YUV encoding/decoding and video codec development in GO
+This repository contains packages for video processing that covers YUV encoding/decoding and video codec development in GO
 
 ## Contributing
 
