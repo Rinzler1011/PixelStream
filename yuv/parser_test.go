@@ -42,16 +42,13 @@ func TestYUV(t *testing.T) {
 		log.Fatal(err)
 	}
 
-	_, err = f.Write(yuv.Y)
-	if err != nil {
+	if _, err := f.Write(yuv.Y); err != nil {
 		log.Fatal(err)
 	}
-	_, err = f.Write(yuv.U)
-	if err != nil {
+	if _, err := f.Write(yuv.U); err != nil {
 		log.Fatal(err)
 	}
-	_, err = f.Write(yuv.V)
-	if err != nil {
+	if _, err := f.Write(yuv.V); err != nil {
 		log.Fatal(err)
 	}
 	defer f.Close()
